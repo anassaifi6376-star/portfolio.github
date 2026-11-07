@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aman — Portfolio</title>
+<style>
+:root{--bg:#fafaf7;--card:#fff;--text:#1d2433;--muted:#5d6678;--accent:#2f5bea;--line:#e4e6ec;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151c;--card:#1a1f2a;--text:#e9ecf3;--muted:#9aa3b5;--accent:#7c9bff;--line:#2a3140;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12151c;--card:#1a1f2a;--text:#e9ecf3;--muted:#9aa3b5;--accent:#7c9bff;--line:#2a3140;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+header{padding:32px 0 8px}
+h1{font-size:2.2rem;margin:0;letter-spacing:-.02em}
+.role{color:var(--accent);font-weight:600;margin:4px 0 12px}
+.lead{color:var(--muted);max-width:60ch}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+nav a,.btn{padding:7px 14px;border:1px solid var(--line);border-radius:999px;color:var(--text);text-decoration:none;font-size:.9rem;background:var(--card)}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+section{margin-top:40px}
+h2{font-size:1.15rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:8px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0}
+.item h3{margin:0;font-size:1.05rem}
+.meta{color:var(--muted);font-size:.88rem;margin:2px 0 6px}
+.item p,.item ul{margin:6px 0 0}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:4px 12px;font-size:.9rem}
+a{color:var(--accent)}
+footer{margin-top:48px;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Aman</h1>
+<div class="role">BCA Student · Aspiring Developer · India</div>
+<p class="lead">I’m a second-year BCA student and a fresher, learning programming and AI automation. I enjoy building small tools that save time, and I’m looking for internships and entry-level opportunities where I can learn and contribute.</p>
+<nav>
+<a href="#skills">Skills</a><a href="#education">Education</a><a href="#looking">Looking for</a>
+<a class="btn primary" href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="skills"><h2>Skills</h2>
+<div class="tags"><span>Java</span><span>Python</span><span>C</span><span>Excel</span><span>AI Automation</span></div>
+</section>
+
+<section id="looking"><h2>Looking for</h2>
+<div class="item"><h3>Internships &amp; entry-level roles</h3><p>Fresher, open to opportunities in software development, automation and data work using Java, Python, C, Excel and AI tools.</p></div>
+</section>
+
+<section id="education"><h2>Education</h2>
+<div class="item"><h3>BCA — Bachelor of Computer Applications</h3><div class="meta">Currently in 2nd year</div></div>
+</section>
+
+<section id="contact"><h2>Contact</h2>
+<div class="item"><p>Email: <a href="mailto:buisnesswithaman@gmail.com">buisnesswithaman@gmail.com</a></p></div>
+</section>
+
+<footer>© Aman</footer>
+</div>
+</body>
+</html>
